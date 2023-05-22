@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family= Tilt +Neon & display=swap');
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e6d5d5;
+    background-image: linear-gradient(to right, #b3cce2 0%, #D9CCC1 74%);
+    font-size: 16px;
+}
+ h1{
+    font-size: 3rem;
+    letter-spacing: .5rem;
+    text-align: center;
+    background: #005eb0;
+    color: #D9CCC1;
+ }
+
+ h2{
+    font-size: 1.5rem;
+    background: #005eb0;
+    color: #D9CCC1;
+ }
+
+ p{
+    font-size: 1.0rem;
+    color: #024059;
+ }
+
+ .cit p{
+    font-family:'Tilt Neon', cursive;
+    letter-spacing: 1.5;
+    text-align: justify;
+    font-style: italic;
+    color: black;
+ }
+
+ .autor{
+    text-align: right;
+    color: darkslategrey;
+    font-style: italic;
+ }
+
+ .data{
+    text-align: left;
+    color: darkslategray;
+    font-style: italic;
+    font-size: 0.8rem;
+ }
+
+ .iden{
+    margin-left: 25px;
+ }
+
+ /*texto riscado*/
+
+ .strikethrough {
+  position: relative;
+  color:#024059
+}
+.strikethrough:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 50%;
+  right: 0;
+  border-top: 1px solid;
+  border-color: inherit;
+  
+  -webkit-transform:rotate(-5deg);
+  -moz-transform:rotate(-5deg);
+  -ms-transform:rotate(-5deg);
+  -o-transform:rotate(-5deg);
+  transform:rotate(-5deg);
+}
+
+#rodape{
+    background-color: #005eb0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    align-items: center;
+}
+
+#rodape p{
+    color: black;
+    margin-left: 15px;
+}
