@@ -1,0 +1,69 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(37, 119, 167);
+}
+
+li{
+    list-style-type: none;
+} 
+
+#principal{
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    border: 1px dotted gray;
+    background-color: rgba(255, 255, 255, 0.747);
+}
+
+#principal #main #links ul li{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+
+#busca {
+    background-color: rgba(131, 205, 248, 0.808);
+    text-align: right;
+    padding: 10px;
+}
+
+header, footer{
+    background-color:rgba(16, 68, 99, 0.808) ;
+    padding: 50px;
+}
+
+header{
+    text-align: center;
+}
+
+#postagens article .quest{
+    border-left: 10px solid rgba(16, 68, 99, 0.808);
+    border-bottom: 1px solid rgba(16, 68, 99, 0.808);
+    padding-left: 10px;
+    padding-bottom: 5px;
+
+}
+
+#principal #main #postagens article .enunciado{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgba(16, 69, 99, 0.527) ;
+    letter-spacing: 0.1rem;
+}
+
+.topico{
+    padding: 1rem;
+}
+
+.autor{
+    font-style: italic;
+    color: rgba(16, 68, 99, 0.808);
+    text-align: right;
+}
+
+#links ul{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
