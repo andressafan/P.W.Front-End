@@ -1,11 +1,48 @@
-*{
-    border: 1px solid black;
-    
+article{
+    padding-bottom: 2rem;
 }
 
+header{
+    background-color: rgb(107, 103, 103);
+    margin: 0;
+    padding: 0;
+}
+
+.row{
+    padding: 1rem;
+    color: rgba(0, 0, 0, 0.144);
+}
+
+.container{
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.842);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 0;
+}
+
+h1, h2{
+    color: white;
+}
+
+h1{
+    font-size: 2rem;
+}
+h2{
+    font-size: 1.5rem;
+}
+
+nav{
+    display: flex;
+    justify-content: end;
+}
 
 table,td,thead, tr, th{
-    border: 1px solid black;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 5px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.185);
+    color: black;
 }
 
 td.cen{
@@ -79,4 +116,33 @@ td {
 
 #peaobranco{
     background-image: url(imagens/peaobranco.png);
+}
+
+
+.zebrada tr:nth-child(even) {
+    background-color: #1f1e1e;
+  }
+
+.zebrada th, .zebrada td{
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+}
+
+.zebrada td{
+    width: max-content;
+}
+
+ #article06 table th{
+    width: max-content;
+    padding: 10px;
+}
+
+#article06 table td{
+    width: max-content;
+    padding-right: 30px;
+}
+
+#article02 table td, #article05 table td{
+    width: max-content;
 }
